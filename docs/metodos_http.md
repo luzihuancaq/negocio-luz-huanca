@@ -52,3 +52,7 @@ Status: 200 OK
 URL en Thunder Client: https://jsonplaceholder.typicode.com/posts/1
 Status: 200 OK
 
+# DIFEREnCIAS ENTRE PUT y PATCH
+El metodo PUT es una actualizacion total del registro. Al utilizarlo es necesario enviar todos los atributos del recurso.
+Por otro lado, el metodo PATCH es una actualizacion parcial. Por esto, no es necesario enciar todos los atributos, basta con que se envie el campo especifico que se desea cambiar. 
+Ademas, put es una operacion idemponente y patch es NO idemponente.
